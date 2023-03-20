@@ -27,4 +27,4 @@ jobs:
           push: true
           tags: ghcr.io/cptkirk/tf-openssl:${{ github.ref_name }}
           build-args: 
-            TF_VERSION=${{ github.ref_name }}
+            TF_VER=${{ github.ref_name }}
